@@ -341,7 +341,7 @@
 <!-- ШАПКА -->
 <div class="header">
   <div class="logo">МАСТЕХ</div>
-  <a href="tel:+79032026198" class="phone">+7 (903) 202-61-98</a>
+  <a href="tel:+79038086198" class="phone">+7 (903) 808-61-98</a>
   <a href="#cta" class="btn-kp">Запросить КП</a>
 </div>
 
@@ -429,7 +429,7 @@
 <!-- КОНТАКТЫ -->
 <div class="cta" id="cta">
   <h3>Обсудим задачу?</h3>
-  <div class="phone-big"><a href="tel:+79032026198">+7 (903) 202-61-98</a></div>
+  <div class="phone-big"><a href="tel:+79038086198">+7 (903) 808-61-98</a></div>
   <p style="opacity:0.9; margin-bottom:10px;">ООО «Мастех»</p>
   <a href="mailto:info@mastech.ru" class="btn">Запросить счёт / КП</a>
   <p style="margin-top:14px; font-size:12px; opacity:0.7;">📍 Доставка по РФ</p>
