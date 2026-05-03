@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
@@ -341,19 +342,19 @@
 <!-- ШАПКА -->
 <div class="header">
   <div class="logo">МАСТЕХ</div>
-  <a href="tel:+79032026198" class="phone">8 (903) 202-61-98</a>
+  <a href="tel:+79032026198" class="phone">+7 (903) 202-61-98</a>
   <a href="#cta" class="btn-kp">Запросить КП</a>
 </div>
 
 <!-- ГЕРОЙ -->
 <div class="hero">
   <h1>Объёмный дозатор<br>для литья пластмасс</h1>
-  <p>Прямой аналог Shini SCM. Собственная разработка и программа управления. Сделано в Твери.</p>
+  <p>Прямой аналог Shini SCM. Собственная разработка и программа управления. Сделано в России.</p>
   <div class="price-box">
     <span class="old">Импортный аналог 350 000 ₽</span>
     <span class="new">от 180 000 ₽</span>
   </div>
-  <div class="note">• В наличии • Сервис ЦФО • Гарантия 12 мес.</div>
+  <div class="note">• В наличии • Сервис по РФ • Гарантия 12 мес.</div>
 </div>
 
 <!-- РАЗДЕЛИТЕЛЬ -->
@@ -410,8 +411,8 @@
     </div>
     <div class="adv-item">
       <div class="icon">⚡</div>
-      <strong>Сервис за часы</strong>
-      <span>Инженер рядом. Тверь, Москва, ЦФО.</span>
+      <strong>Сервис рядом</strong>
+      <span>Инженер выезжает к вам. Оперативно решаем вопросы.</span>
     </div>
     <div class="adv-item">
       <div class="icon">🔌</div>
@@ -429,10 +430,10 @@
 <!-- КОНТАКТЫ -->
 <div class="cta" id="cta">
   <h3>Обсудим задачу?</h3>
-  <div class="phone-big"><a href="tel:+79032026198">8 (903) 202-61-98</a></div>
+  <div class="phone-big"><a href="tel:+79032026198">+7 (903) 202-61-98</a></div>
   <p style="opacity:0.9; margin-bottom:10px;">ООО «Мастех»</p>
   <a href="mailto:info@mastech.ru" class="btn">Запросить счёт / КП</a>
-  <p style="margin-top:14px; font-size:12px; opacity:0.7;">📍 Тверь, доставка по РФ</p>
+  <p style="margin-top:14px; font-size:12px; opacity:0.7;">📍 Доставка по РФ</p>
 </div>
 
 <!-- КНОПКА НАВЕРХ -->
