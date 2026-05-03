@@ -12,7 +12,6 @@
 
     html {
       scroll-behavior: smooth;
-      /* Плавная прокрутка по якорям для всех современных браузеров, включая Safari */
     }
 
     body {
@@ -181,7 +180,6 @@
       transition: transform 0.2s ease, box-shadow 0.2s ease;
     }
 
-    /* На десктопе карточки чуть приподнимаются, на телефоне ничего не меняется */
     @media (hover: hover) {
       .card:hover {
         transform: translateY(-3px);
@@ -228,7 +226,6 @@
       color: #475569;
     }
 
-    /* Два столбца для планшетов и широких телефонов */
     @media (min-width: 480px) {
       .adv-grid {
         display: flex;
@@ -285,21 +282,47 @@
 
     /* КНОПКА НАВЕРХ */
     .back-to-top {
-      display: block;
-      text-align: center;
-      padding: 12px;
-      background: white;
-      border-top: 1px solid #e2e8f0;
-      color: #2563eb;
-      font-weight: 600;
+      position: fixed;
+      bottom: 24px;
+      right: 20px;
+      z-index: 999;
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: rgba(15, 23, 42, 0.7);
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       text-decoration: none;
-      position: sticky;
-      bottom: 0;
-      z-index: 10;
-      transition: background 0.15s;
+      transition: background 0.2s ease, transform 0.2s ease;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.2);
+      border: 1px solid rgba(255,255,255,0.15);
     }
+
+    .back-to-top:hover {
+      background: rgba(15, 23, 42, 0.85);
+      transform: translateY(-2px);
+    }
+
     .back-to-top:active {
-      background: #f1f5f9;
+      background: rgba(15, 23, 42, 0.9);
+      transform: scale(0.94);
+    }
+
+    /* Стрелка */
+    .back-to-top::after {
+      content: "";
+      display: block;
+      width: 12px;
+      height: 12px;
+      border-top: 2.5px solid white;
+      border-right: 2.5px solid white;
+      transform: rotate(-45deg);
+      position: relative;
+      top: 2px;
     }
 
     /* ФУТЕР */
@@ -318,7 +341,7 @@
 <!-- ШАПКА -->
 <div class="header">
   <div class="logo">МАСТЕХ</div>
-  <a href="tel:+79040087191" class="phone">+7 (904) 008-71-91</a>
+  <a href="tel:+79032026198" class="phone">8 (903) 202-61-98</a>
   <a href="#cta" class="btn-kp">Запросить КП</a>
 </div>
 
@@ -406,19 +429,18 @@
 <!-- КОНТАКТЫ -->
 <div class="cta" id="cta">
   <h3>Обсудим задачу?</h3>
-  <div class="phone-big"><a href="tel:+79040087191">+7 (904) 008-71-91</a></div>
-  <p style="opacity:0.9; margin-bottom:4px;">Александр Мензулов, технический директор</p>
-  <p style="font-size:13px; opacity:0.7; margin-bottom:12px;">ИП Мензулов А.А. | ИНН 690140652031</p>
+  <div class="phone-big"><a href="tel:+79032026198">8 (903) 202-61-98</a></div>
+  <p style="opacity:0.9; margin-bottom:10px;">ООО «Мастех»</p>
   <a href="mailto:info@mastech.ru" class="btn">Запросить счёт / КП</a>
   <p style="margin-top:14px; font-size:12px; opacity:0.7;">📍 Тверь, доставка по РФ</p>
 </div>
 
 <!-- КНОПКА НАВЕРХ -->
-<a href="#top" class="back-to-top">⬆️ Наверх</a>
+<a href="#top" class="back-to-top" title="Наверх"></a>
 
 <!-- ФУТЕР -->
 <div class="footer">
-  © Мастех, 2026. Не является публичной офертой.
+  © ООО «Мастех», 2026. Не является публичной офертой.
 </div>
 
 </body>
